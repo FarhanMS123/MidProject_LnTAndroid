@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">MidProject</string>
+    <string name="or_try_to_register"><u>or try to register...</u></string>
+    <string name="license"><u>license</u></string>
+    <string name="skip"><u>skip &gt;</u></string>
+    <string name="back"><u>&lt; back</u></string>
+    <string name="close"><u>close</u></string>
+    <string name="testDrive"><u>test drive</u></string>
+    <string name="license_list">
+        Icons made by <a href="https://www.flaticon.com/authors/good-ware" title="Good Ware">Good Ware</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>\n
+        Lorum ipsum dolor sit amet Lorum ipsum dolor sit amet Lorum ipsum dolor sit amet Lorum ipsum dolor sit amet Lorum ipsum dolor sit amet Lorum ipsum dolor sit amet Lorum ipsum dolor sit amet Lorum ipsum dolor sit amet Lorum ipsum dolor sit amet Lorum ipsum dolor sit amet Lorum ipsum dolor sit amet Lorum ipsum dolor sit amet Lorum ipsum dolor sit amet
+    </string>
+    <string-array name="typeVehicle">
+        <item>Mobil</item>
+        <item>Motor</item>
+    </string-array>
+    <string-array name="typesOfCar">
+        <item>SUV</item>
+        <item>SuperCar</item>
+        <item>Minivan</item>
+    </string-array>
+    <string-array name="typesOfMotor">
+        <item>Automatic</item>
+        <item>Manual</item>
+    </string-array>
+</resources>
