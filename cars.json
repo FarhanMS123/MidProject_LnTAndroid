@@ -1,0 +1,53 @@
+[
+    {
+        "gambar"    : "honda_civic_sedan.jpg",
+        "nama"      : "Honda Civic",
+        "brand"     : "Honda",
+        "tipe"      : "Sedan",
+        "top_speed" : "130 mph"
+    },{
+        "gambar"    : "mercedes_benz_e.jpg",
+        "nama"      : "Mercedes Benz E",
+        "brand"     : "Mercedes",
+        "tipe"      : "Coupe",
+        "top_speed" : "112 mph"
+    },{
+        "gambar"    : "chevrolet_corvette.jpg",
+        "nama"      : "Chevrolet Corvette",
+        "brand"     : "Chevrolet",
+        "tipe"      : "Sport",
+        "top_speed" : "200 mph"
+    },{
+        "gambar"    : "volvo_v60.jpg",
+        "nama"      : "Volvo V60",
+        "brand"     : "Volvo",
+        "tipe"      : "Station Wagon",
+        "top_speed" : "200 mph"
+    },{
+        "gambar"    : "volkswagen_golf_gti.jpg",
+        "nama"      : "Volkswagen Golf GTI",
+        "brand"     : "Volkswagen",
+        "tipe"      : "Hatchback",
+        "top_speed" : "155 mph"
+    }
+
+    ,{
+        "gambar"    : "porsche_718_boxter.jpg",
+        "nama"      : "Porsche 718 Boxster",
+        "brand"     : "Volkswagen",
+        "tipe"      : "Convertible",
+        "top_speed" : "170 mph"
+    },{
+        "gambar"    : "hyundai_kona.jpg",
+        "nama"      : "Hyundai Kona",
+        "brand"     : "Hyundai",
+        "tipe"      : "Sport-Utility Vehicle (SUV)",
+        "top_speed" : "195 RPM"
+    },{
+        "gambar"    : "honda_ridgeline.jpg",
+        "nama"      : "Honda Ridgeline",
+        "brand"     : "Honda",
+        "tipe"      : "Pickup Truck",
+        "top_speed" : "120 mph"
+    }  
+]

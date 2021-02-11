@@ -2,6 +2,24 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.midproject">
 
+    <!--
+        HI LnT BNCC.
+        Jadi... gua penasaran nih...
+        Benasarkan dokumen, kalau dikirim sebelum tanggal 15
+        Februari akan "menaikkan jabatan" di perusahaan
+        Mentol. Jadi dalam arti sebenarnya... apa maksud
+        dari pernyataan ini?
+
+        Trims...
+        Farhan MS...
+
+        Gua taruh disini karena mungkin tempat ini tak akan
+        dibaca. xD wkwkwk. Tapi kalo baca, thats great.
+        I hope I can know the answer of my question above.
+
+        Thankyou =D
+    -->
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"

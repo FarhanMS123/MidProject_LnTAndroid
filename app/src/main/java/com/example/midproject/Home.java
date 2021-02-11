@@ -22,26 +22,24 @@ public class Home extends AppCompatActivity {
         rvCarInfo = findViewById(R.id.rvCarInfo);
 
         ArrayList<CarInfoAdapter.CarInfo> items = new ArrayList<>();
-        items.add(new CarInfoAdapter.CarInfo(R.drawable.menthol_icon, "Mobil 1", "Brand 1", "Tipe 1", "100km/h"));
-        items.add(new CarInfoAdapter.CarInfo(R.drawable.menthol_icon, "Mobil 1", "Brand 1", "Tipe 1", "100km/h"));
-        items.add(new CarInfoAdapter.CarInfo(R.drawable.menthol_icon, "Mobil 1", "Brand 1", "Tipe 1", "100km/h"));
-        items.add(new CarInfoAdapter.CarInfo(R.drawable.menthol_icon, "Mobil 1", "Brand 1", "Tipe 1", "100km/h"));
-        items.add(new CarInfoAdapter.CarInfo(R.drawable.menthol_icon, "Mobil 1", "Brand 1", "Tipe 1", "100km/h"));
-        items.add(new CarInfoAdapter.CarInfo(R.drawable.menthol_icon, "Mobil 1", "Brand 1", "Tipe 1", "100km/h"));
-        items.add(new CarInfoAdapter.CarInfo(R.drawable.menthol_icon, "Mobil 1", "Brand 1", "Tipe 1", "100km/h"));
-        items.add(new CarInfoAdapter.CarInfo(R.drawable.menthol_icon, "Mobil 1", "Brand 1", "Tipe 1", "100km/h"));
-        items.add(new CarInfoAdapter.CarInfo(R.drawable.menthol_icon, "Mobil 1", "Brand 1", "Tipe 1", "100km/h"));
-        items.add(new CarInfoAdapter.CarInfo(R.drawable.menthol_icon, "Mobil 1", "Brand 1", "Tipe 1", "100km/h"));
-        items.add(new CarInfoAdapter.CarInfo(R.drawable.menthol_icon, "Mobil 1", "Brand 1", "Tipe 1", "100km/h"));
-        items.add(new CarInfoAdapter.CarInfo(R.drawable.menthol_icon, "Mobil 1", "Brand 1", "Tipe 1", "100km/h"));
-        items.add(new CarInfoAdapter.CarInfo(R.drawable.menthol_icon, "Mobil 1", "Brand 1", "Tipe 1", "100km/h"));
-        items.add(new CarInfoAdapter.CarInfo(R.drawable.menthol_icon, "Mobil 1", "Brand 1", "Tipe 1", "100km/h"));
-        items.add(new CarInfoAdapter.CarInfo(R.drawable.menthol_icon, "Mobil 1", "Brand 1", "Tipe 1", "100km/h"));
-        items.add(new CarInfoAdapter.CarInfo(R.drawable.menthol_icon, "Mobil 1", "Brand 1", "Tipe 1", "100km/h"));
-        items.add(new CarInfoAdapter.CarInfo(R.drawable.menthol_icon, "Mobil 1", "Brand 1", "Tipe 1", "100km/h"));
-        items.add(new CarInfoAdapter.CarInfo(R.drawable.menthol_icon, "Mobil 1", "Brand 1", "Tipe 1", "100km/h"));
-        items.add(new CarInfoAdapter.CarInfo(R.drawable.menthol_icon, "Mobil 1", "Brand 1", "Tipe 1", "100km/h"));
-        items.add(new CarInfoAdapter.CarInfo(R.drawable.menthol_icon, "Mobil 1", "Brand 1", "Tipe 1", "100km/h"));
+        items.add(new CarInfoAdapter.CarInfo(R.drawable.honda_civic_sedan, "Honda Civic", "Honda", "Sedan", "130 mph"));
+        items.add(new CarInfoAdapter.CarInfo(R.drawable.mercedes_benz_e, "Mercedes Benz E", "Mercedes", "Coupe", "112 mph"));
+        items.add(new CarInfoAdapter.CarInfo(R.drawable.chevrolet_corvette, "Chevrolet Corvette", "Chevrolet", "Sport", "200 mph"));
+        items.add(new CarInfoAdapter.CarInfo(R.drawable.volvo_v60, "Volvo V60", "Volvo", "Station Wagon", "200 mph"));
+        items.add(new CarInfoAdapter.CarInfo(R.drawable.volkswagen_golf_gti, "Volkswagen Golf GTI", "Volkswagen", "Hatchback", "155 mph"));
+        items.add(new CarInfoAdapter.CarInfo(R.drawable.porsche_718_boxter, "Porsche 718 Boxster", "Volkswagen", "Convertible", "170 mph"));
+        items.add(new CarInfoAdapter.CarInfo(R.drawable.hyundai_kona, "Hyundai Kona", "Hyundai", "Sport-Utility Vehicle (SUV)", "195 rpm"));
+        items.add(new CarInfoAdapter.CarInfo(R.drawable.honda_ridgeline, "Honda Ridgeline", "Honda", "Pickup Truck", "120 mph"));
+
+        // This is a repeated items to see the recyler view scrolling feature.
+        items.add(new CarInfoAdapter.CarInfo(R.drawable.honda_civic_sedan, "Honda Civic", "Honda", "Sedan", "130 mph"));
+        items.add(new CarInfoAdapter.CarInfo(R.drawable.mercedes_benz_e, "Mercedes Benz E", "Mercedes", "Coupe", "112 mph"));
+        items.add(new CarInfoAdapter.CarInfo(R.drawable.chevrolet_corvette, "Chevrolet Corvette", "Chevrolet", "Sport", "200 mph"));
+        items.add(new CarInfoAdapter.CarInfo(R.drawable.volvo_v60, "Volvo V60", "Volvo", "Station Wagon", "200 mph"));
+        items.add(new CarInfoAdapter.CarInfo(R.drawable.volkswagen_golf_gti, "Volkswagen Golf GTI", "Volkswagen", "Hatchback", "155 mph"));
+        items.add(new CarInfoAdapter.CarInfo(R.drawable.porsche_718_boxter, "Porsche 718 Boxster", "Volkswagen", "Convertible", "170 mph"));
+        items.add(new CarInfoAdapter.CarInfo(R.drawable.hyundai_kona, "Hyundai Kona", "Hyundai", "Sport-Utility Vehicle (SUV)", "195 rpm"));
+        items.add(new CarInfoAdapter.CarInfo(R.drawable.honda_ridgeline, "Honda Ridgeline", "Honda", "Pickup Truck", "120 mph"));
 
         CarInfoAdapter rvAdapter = new CarInfoAdapter(items);
         LinearLayoutManager llManager = new LinearLayoutManager(this);
